@@ -38,4 +38,8 @@ app.use((err, req, res, next) => {
   res.render('error');
 });
 
+app.listen(3000, () => {
+  console.log(`Server listening on port 3000 🚀`);
+});
+
 module.exports = app;
