@@ -3,8 +3,8 @@ const express = require('express');
 const app = express();
 
 /* GET home page. */
-app.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+app.get('/', (req, res, next) => {
+  res.render('index', { title: 'David Hull | Node.js Engineer' });
 });
 
 module.exports = app;
