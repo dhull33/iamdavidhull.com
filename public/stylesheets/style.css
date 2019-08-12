@@ -1,7 +1,11 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: "/images/IMG_0218.JPG";
 }
 
+html {
+  background-image: url("/images/IMG_0218.JPG");
+}
 a {
   color: #00B7FF;
 }
