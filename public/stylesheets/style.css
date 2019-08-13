@@ -9,3 +9,23 @@ html {
 a {
   color: #00B7FF;
 }
+
+/*@media screen and (max-width: 48rem) {*/
+/*  .container .col {*/
+/*    width: 95%;*/
+/*  }*/
+/*}*/
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #eee;
+  overflow: auto;
+}
+
+.container .col {
+  flex: 1;
+  padding: 1rem;
+}
+
