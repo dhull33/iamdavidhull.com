@@ -1,20 +1,47 @@
+/*html {*/
+/*  padding: 0;*/
+/*  margin: 0;*/
+/*  !*background-image: url("/images/ArrrowBrainCircleLogo.JPG");*!*/
+/*}*/
+
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: "/images/IMG_0218.JPG";
+  padding: 0;
 }
 
-html {
-  background-image: url("/images/IMG_0218.JPG");
+.container {
+  background: #eeeeee;
+  overflow: auto;
 }
+
+.container .col {
+  width: 27%;
+  padding: 0 0 0;
+  float: left;
+}
+
 a {
   color: #00B7FF;
 }
 
-/*@media screen and (max-width: 48rem) {*/
-/*  .container .col {*/
-/*    width: 95%;*/
-/*  }*/
-/*}*/
+.top-nav {
+  background-color: #2a2a2a;
+}
+
+@media screen and (max-width: 48rem) {
+  .container .col {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: column;
+  }
+}
 
 .container {
   display: -webkit-box;
