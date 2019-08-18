@@ -1,20 +1,21 @@
-/*html {*/
-/*  padding: 0;*/
-/*  margin: 0;*/
-/*  !*background-image: url("/images/ArrrowBrainCircleLogo.JPG");*!*/
-/*}*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   padding: 0;
 }
 
-.container {
+.no-flexbox .container {
   background: #eeeeee;
   overflow: auto;
 }
 
-.container .col {
+.no-flexbox .container .col {
   width: 27%;
   padding: 0 0 0;
   float: left;
@@ -23,19 +24,26 @@ body {
 a {
   color: #00B7FF;
 }
-
-.top-nav {
+/* NAVBAR */
+.navbar {
   background-color: #2a2a2a;
+  font-size: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
 }
 
 @media screen and (max-width: 48rem) {
-  .container .col {
+  .no-flexbox .container .col {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 48rem) {
-  .container {
+  .flexbox .container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -43,7 +51,7 @@ a {
   }
 }
 
-.container {
+.flexbox .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,7 +59,7 @@ a {
   overflow: auto;
 }
 
-.container .col {
+.flexbox .container .col {
   flex: 1;
   padding: 1rem;
 }
