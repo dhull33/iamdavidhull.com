@@ -59,7 +59,7 @@ a {
 .navbar-toggle {
   position: absolute;
   top: 17px;
-  right: 20px;
+  right: 30px;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.8);
   font-size: 24px;
