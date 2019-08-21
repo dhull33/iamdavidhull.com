@@ -6,7 +6,7 @@
 
 
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
   height: 100%;
@@ -98,3 +98,10 @@ a {
   /*padding: 1rem;*/
 }
 
+/* End of Navbar */
+
+
+/* Images */
+img {
+  max-width: 100%;
+}
