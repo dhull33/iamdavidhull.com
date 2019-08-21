@@ -29,7 +29,7 @@ a {
 }
 /* NAVBAR */
 .navbar {
-  background-color: #2a2a2a;
+  background-color: black;
   font-size: 18px;
   display: block;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -54,6 +54,8 @@ a {
 
 .logo {
   padding: 1.0rem;
+  margin-bottom: auto;
+
 }
 
 .navbar-toggle {
