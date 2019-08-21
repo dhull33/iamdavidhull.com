@@ -6,6 +6,9 @@
     "start": "node bin/www",
     "start:dev": "nodemon bin/www"
   },
+  "engines": {
+    "node": "12.9.0"
+  },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
