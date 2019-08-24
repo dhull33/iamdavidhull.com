@@ -54,8 +54,6 @@ a {
 
 .logo {
   padding: 1.0rem;
-  margin-bottom: auto;
-
 }
 
 .navbar-toggle {
@@ -106,4 +104,5 @@ a {
 /* Images */
 img {
   max-width: 100%;
+  margin-bottom: auto;
 }
