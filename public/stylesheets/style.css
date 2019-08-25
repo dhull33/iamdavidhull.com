@@ -11,10 +11,12 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
+  background-color: #303030;
+  text-emphasis-color: #D33F49;
 }
 
 .no-flexbox .container {
-  background: #2e1205;
+  background: #303030;
   overflow: auto;
 }
 
@@ -29,12 +31,14 @@ a {
 }
 /* NAVBAR */
 .navbar {
-  background-color: #2e1205;
+  background-color: #303030;
   font-size: 18px;
   display: block;
   border: 1px solid rgba(18, 10, 4, 0.4);
   padding-bottom: 10px;
   width: 100%;
+  z-index: 2;
+  opacity: 0.97;
 }
 
 .main-nav {
@@ -49,11 +53,11 @@ a {
 
 .nav-links {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.7);
+  color: #D33F49;
 }
 
 .logo {
-  /*padding: 1.0rem;*/
+  padding: 1.0rem;
 }
 
 .navbar-toggle {
@@ -61,7 +65,7 @@ a {
   top: 17px;
   right: 30px;
   cursor: pointer;
-  color: rgba(255, 255, 255, 0.8);
+  color: #D33F49;
   font-size: 24px;
 }
 
@@ -89,13 +93,13 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #2e1205;
+  background: #303030;
   overflow: auto;
 }
 
 .flexbox .container .col {
   flex: 1;
-  /*padding: 1rem;*/
+  padding: 1rem;
 }
 
 /* End of Navbar */
@@ -109,4 +113,19 @@ img {
 img#main-brain {
   transition: width 0.5s;
   max-width: 50vw;
+  float: right;
+}
+
+@media screen and (max-width: 700px) {
+  /*img#main-brain {*/
+  /*  max-width: 90vw;*/
+  /*  width: 90vw;*/
+  /*}*/
+}
+
+/* End of Images */
+
+.brain-main-container {
+  display: block;
+  height: 30vh;
 }
