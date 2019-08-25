@@ -12,7 +12,6 @@ body {
   height: 100%;
   width: 100%;
   background-color: #303030;
-  text-emphasis-color: #D33F49;
 }
 
 .no-flexbox .container {
@@ -76,7 +75,7 @@ a {
 
 @media screen and (max-width: 48rem) {
   .no-flexbox .container .col {
-    width: 100%;
+    width: 95%;
   }
 }
 
@@ -106,14 +105,16 @@ a {
 
 
 /* Images */
-img {
-  max-width: 100%;
-}
 
 img#main-brain {
-  transition: width 0.5s;
-  /*max-width: 50vw;*/
+  position: absolute;
+  top: 0;
+  right: -5rem;
+  object-position: center center;
+  opacity: 1;
+  transition: opacity 500ms ease 0s;
   float: right;
+  max-width: 50vw;
 }
 
 @media screen and (max-width: 700px) {
@@ -124,16 +125,15 @@ img#main-brain {
 }
 
 .rotateimg45 {
-  -webkit-transform:rotate(340deg);
-  -moz-transform: rotate(340deg);
-  -ms-transform: rotate(340deg);
-  -o-transform: rotate(340deg);
-  transform: rotate(340deg);
+  -webkit-transform:rotate(330deg);
+  -moz-transform: rotate(330deg);
+  -ms-transform: rotate(330deg);
+  -o-transform: rotate(330deg);
+  transform: rotate(330deg);
 }
 
 /* End of Images */
 
 .brain-main-container {
-  display: block;
-  height: 30vh;
+  height: 40vh;
 }
