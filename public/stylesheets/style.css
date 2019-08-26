@@ -36,8 +36,9 @@ a {
   border: 1px solid rgba(18, 10, 4, 0.4);
   padding-bottom: 10px;
   width: 100%;
+  height: 60px;
   z-index: 2;
-  opacity: 0.97;
+  opacity: 0.95;
 }
 
 .main-nav {
@@ -56,12 +57,13 @@ a {
 }
 
 .logo {
-  padding: 1.0rem;
+  padding: 1rem;
+  color: #D33F49;
 }
 
 .navbar-toggle {
   position: absolute;
-  top: 17px;
+  top: 15px;
   right: 30px;
   cursor: pointer;
   color: #D33F49;
@@ -93,7 +95,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   background: #303030;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .flexbox .container .col {
@@ -107,24 +109,25 @@ a {
 /* Images */
 
 img#main-brain {
+  /*display: block;*/
   position: absolute;
   top: 0;
-  right: -5rem;
   object-position: center center;
   opacity: 1;
   transition: opacity 500ms ease 0s;
   float: right;
   max-width: 50vw;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 700px) {
   img#main-brain {
     max-width: 90vw;
-    width: 90vw;
+    width: 50vw;
   }
 }
 
-.rotateimg45 {
+.rotateimg330 {
   -webkit-transform:rotate(330deg);
   -moz-transform: rotate(330deg);
   -ms-transform: rotate(330deg);
