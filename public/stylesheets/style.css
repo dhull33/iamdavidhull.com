@@ -140,3 +140,11 @@ img#main-brain {
 .brain-main-container {
   height: 40vh;
 }
+
+.main-theme {
+  color: #D33F49;
+}
+
+.secondary-theme {
+  color: white;
+}
