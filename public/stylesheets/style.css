@@ -149,7 +149,7 @@ img#main-brain {
 /* Button */
 a.button {
   display: inline-block;
-  padding: 0.5em 1.3em;
+  padding: 0.5em 1.5em;
   margin: 0 0.3em 0.3em 0;
   border-radius: 4em;
   box-sizing: border-box;
@@ -171,4 +171,9 @@ a.button:hover {
 
 .not-active {
   display: none;
+}
+
+.hello {
+  padding: 1vh 6vw 0;
+  height: 45vh;
 }
