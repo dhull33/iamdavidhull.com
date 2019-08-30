@@ -157,9 +157,18 @@ a.button {
   text-align: center;
   background-color: #D33F49;
   color: white;
-  transition: all 0.2s;
+  transition: all 0.2s ease-out 0s;
 }
 
 a.button:hover {
   background-color: #C03A43;
+}
+
+.arrow-down {
+  margin-left: 50%;
+  transition: all 0.2s ease-out 0s;
+}
+
+.not-active {
+  display: none;
 }
