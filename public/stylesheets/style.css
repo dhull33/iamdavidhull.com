@@ -25,9 +25,6 @@ body {
   float: left;
 }
 
-a {
-  color: #00B7FF;
-}
 /* NAVBAR */
 .navbar {
   background-color: #303030;
@@ -147,4 +144,17 @@ img#main-brain {
 
 .secondary-theme {
   color: white;
+}
+
+a.button {
+  display: inline-block;
+  padding: 0.5em 1.3em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 4em;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  background-color: #D33F49;
+  color: white;
+  transition: all 0.2s;
 }
