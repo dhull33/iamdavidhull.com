@@ -165,7 +165,10 @@ a.button:hover {
 }
 
 .arrow-down {
+  margin-top: 0;
   margin-left: 50%;
+  height: 30vh;
+
   transition: all 0.2s ease-out 0s;
 }
 
