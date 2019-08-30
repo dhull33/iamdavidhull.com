@@ -34,7 +34,7 @@ body {
   width: 100%;
   height: 216px;
   z-index: 2;
-  opacity: 0.95;
+  opacity: 0.80;
 }
 
 .main-nav {
@@ -104,7 +104,7 @@ body {
 
 /* Images */
 
-img#main-brain {
+#main-brain {
   /*display: block;*/
   position: absolute;
   top: 0;
@@ -117,7 +117,7 @@ img#main-brain {
 }
 
 @media screen and (max-width: 700px) {
-  img#main-brain {
+  #main-brain {
     max-width: 90vw;
     width: 50vw;
   }
