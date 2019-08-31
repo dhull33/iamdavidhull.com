@@ -155,7 +155,7 @@ a.button:hover {
   background-color: #C03A43;
 }
 
-@media all and (min-width: 601px) {
+@media all and (min-width: 800px) {
   a.button {
     display: block;
     margin: 0 67vw 0.3em 0;
@@ -199,7 +199,7 @@ a.button:hover {
   text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   .big-hello {
     font-size: 33px;
   }
@@ -209,7 +209,7 @@ a.button:hover {
   }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 451px) {
   .big-hello {
     font-size: 50px;
   }
