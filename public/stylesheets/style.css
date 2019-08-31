@@ -148,11 +148,19 @@ a.button {
   text-align: center;
   background-color: #D33F49;
   color: whitesmoke;
-  transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0.2s;
 }
 
 a.button:hover {
   background-color: #C03A43;
+}
+
+@media all and (min-width: 601px) {
+  a.button {
+    display: block;
+    margin: 0 67vw 0.3em 0;
+    transition: all 0.2s ease-out 0.2s;
+  }
 }
 
 .arrow-down {
