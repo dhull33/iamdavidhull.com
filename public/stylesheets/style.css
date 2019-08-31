@@ -136,13 +136,20 @@ body {
 .brain-main-container {
   height: 20vh;
 }
-
-.main-theme {
+/* Text and Colors*/
+.main-color {
   color: #D33F49;
 }
 
-.secondary-theme {
-  color: white;
+.second-color {
+  color: whitesmoke;
+}
+.paragraph-text {
+  color: whitesmoke;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  font-size: 4.5vw;
 }
 
 /* Button */
@@ -155,7 +162,7 @@ a.button {
   text-decoration: none;
   text-align: center;
   background-color: #D33F49;
-  color: white;
+  color: whitesmoke;
   transition: all 0.2s ease-out 0s;
 }
 
