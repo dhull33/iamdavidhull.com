@@ -147,7 +147,7 @@ a.button {
   text-align: center;
   background-color: #D33F49;
   color: whitesmoke;
-  transition: all 0.2s ease-out 0.2s;
+  transition: all 0.2s ease-out 0s;
 }
 
 a.button:hover {
@@ -220,7 +220,7 @@ a.button:hover {
 
 .about-me {
   text-align: center;
-  padding: 1rem;
+  padding: 1em;
 }
 
 .highlight-node {
@@ -243,4 +243,10 @@ a.button:hover {
   width: 100%;
   transform: rotate(-2deg);
   background-color: #D33F49;
+}
+
+.skills {
+  text-align: center;
+  padding: 1rem;
+  height: 30vh;
 }
