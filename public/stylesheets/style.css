@@ -139,7 +139,7 @@ body {
 /* Button */
 a.button {
   display: inline-block;
-  padding: 0.5em 1.5em;
+  padding: 0.4em 1.5em;
   margin: 0 0.3em 0.3em 0;
   border-radius: 4em;
   box-sizing: border-box;
@@ -147,7 +147,7 @@ a.button {
   text-align: center;
   background-color: #D33F49;
   color: whitesmoke;
-  transition: all 0.2s ease-out 0s;
+  transition: all 0.2s;
 }
 
 a.button:hover {
@@ -158,7 +158,7 @@ a.button:hover {
   a.button {
     display: block;
     margin: 0 67vw 0.3em 0;
-    transition: all 0.2s ease-out 0.2s;
+    transition: all 0.2s;
   }
 }
 
