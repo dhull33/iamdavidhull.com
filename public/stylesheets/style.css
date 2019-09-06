@@ -219,7 +219,7 @@ a.button:hover {
   }
 }
 
-.about-me {
+.about-me, #portfolio {
   text-align: center;
   padding: 1em;
 }
