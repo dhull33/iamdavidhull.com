@@ -102,6 +102,11 @@ body {
 
 
 /* Images */
+img {
+  max-width: 100%;
+  transition: width 0.5s;
+  width: 50vw;
+}
 
 #main-brain {
   /*display: block;*/
@@ -116,9 +121,9 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-  #main-brain {
+  img {
     max-width: 90vw;
-    width: 50vw;
+    width: 90vw;
   }
 }
 
@@ -219,7 +224,7 @@ a.button:hover {
   }
 }
 
-.about-me, #portfolio {
+.about-me, .free-me, #portfolio {
   text-align: center;
   padding: 1em;
 }
