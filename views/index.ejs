@@ -115,18 +115,24 @@
     <div id="portfolio" class="container">
       <div class="container">
         <h3 class="main-color"> <span class="highlight-node"> my portfolio </span> </h3>
-        <h4 class="paragraph-text">only the <span class="highlight-node">coolest</span> made the cut <span role="img" aria-label="Cool emoji"> 😎 </span>
+        <h4 class="paragraph-text">only the coolest made the cut <span role="img" aria-label="Cool emoji"> 😎 </span>
         </h4>
       </div>
       <br/>
-      <br/>
 
       <div class="container free-me">
-        <h3><span class="highlight-node">free my maps</span></h3>
-        <figure>
-          <img id="freemaps" src="images/free-1600x1015.png" alt="Free My Maps Project"/>
+        <h3><span class="almost-highlight">free my maps</span></h3>
+        <figure class="free-me">
+          <picture>
+            <source media="(min-width: 750px)"
+                    srcset="/images/free-1600x1015.png 2x,
+                            /images/free-1000x630.png 1x" />
+            <source media="(min-width: 500px)"
+                    srcset="/images/free-800x504.png" />
+            <img id="freemaps" src="images/free-500x315.png" alt="free my maps project" />
+          </picture>
+          <figcaption class="paragraph-text"> You're mom!</figcaption>
         </figure>
-      </div>
       </div>
 
 

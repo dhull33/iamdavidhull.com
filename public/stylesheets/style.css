@@ -255,3 +255,13 @@ a.button:hover {
   text-align: center;
   padding: 1rem;
 }
+
+.almost-highlight {
+  position: relative;
+  font-style: italic;
+  color: whitesmoke;
+  font-weight: 600;
+  display: inline-block;
+  word-break: break-word;
+  white-space: normal;
+}
