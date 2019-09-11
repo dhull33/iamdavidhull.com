@@ -159,6 +159,45 @@ a.button:hover {
   background-color: #C03A43;
 }
 
+
+a.button2 {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border:0.1em solid #D33F49;
+  border-radius: 4em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  text-align:center;
+  transition: all 0.2s;
+  background-color: #D33F49;
+}
+a.button2:hover {
+  border-color: rgba(255,255,255,1);
+}
+
+a.button3 {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border: 0.1em solid whitesmoke;
+  border-radius: 4em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family:'Roboto',sans-serif;
+  font-weight: 300;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  text-align: center;
+  transition: all 0.2s;
+  color: whitesmoke;
+  background-color: #151924;
+}
+
+
 @media all and (min-width: 800px) {
   a.button {
     display: block;
@@ -166,6 +205,13 @@ a.button:hover {
     transition: all 0.2s;
   }
 }
+
+.button-div {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+/* End of Button */
 
 .arrow-down {
   margin-top: 0;
@@ -264,6 +310,16 @@ a.button:hover {
   display: inline-block;
   word-break: break-word;
   white-space: normal;
+}
+
+.highlight {
+  position: relative;
+  color: white;
+  display: inline-block;
+  word-break: break-word;
+  white-space: -moz-pre-wrap;
+  font-weight: bold;
+  font-style: oblique;
 }
 
 header {
