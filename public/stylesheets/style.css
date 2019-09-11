@@ -269,3 +269,11 @@ a.button:hover {
 header {
   margin-bottom: 1vh;
 }
+
+picture {
+  margin-bottom: 1vh;
+}
+
+.super-script {
+  color: #DB616A;
+}
