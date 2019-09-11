@@ -259,9 +259,13 @@ a.button:hover {
 .almost-highlight {
   position: relative;
   font-style: italic;
-  color: whitesmoke;
+  color: #D33F49;
   font-weight: 600;
   display: inline-block;
   word-break: break-word;
   white-space: normal;
+}
+
+header {
+  margin-bottom: 1vh;
 }
