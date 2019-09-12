@@ -169,12 +169,12 @@ a.button2 {
   box-sizing: border-box;
   text-decoration:none;
   font-family:'Roboto',sans-serif;
-  font-weight:300;
-  color:#FFFFFF;
+  font-weight: 400;
+  color: whitesmoke;
   text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
-  text-align:center;
+  text-align: center;
   transition: all 0.2s;
-  background-color: #D33F49;
+  background-color: #151924;
 }
 a.button2:hover {
   border-color: rgba(255,255,255,1);
@@ -189,12 +189,16 @@ a.button3 {
   box-sizing: border-box;
   text-decoration: none;
   font-family:'Roboto',sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
   text-align: center;
   transition: all 0.2s;
   color: whitesmoke;
-background-color: #151924;
+  background-color: #151924;
+}
+
+a.button3:hover {
+  border-color: #D33F49;
 }
 
 
