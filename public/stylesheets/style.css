@@ -91,6 +91,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
+  flex-flow: column;
 }
 
 .flexbox .container .col {
@@ -276,7 +277,7 @@ a.button3:hover {
 
 .about-me, .free-me, #portfolio {
   text-align: center;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .highlight-node {
