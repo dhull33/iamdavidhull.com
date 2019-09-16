@@ -367,3 +367,8 @@ h3.hello2 {
   justify-content: space-evenly;
 }
 
+.emphasize {
+  color: white;
+  font-weight: 800;
+}
+
