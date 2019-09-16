@@ -361,3 +361,9 @@ h3.hello2 {
   text-transform: uppercase;
 }
 
+.social-icons {
+  padding: 1.5rem;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
