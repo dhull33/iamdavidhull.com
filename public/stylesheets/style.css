@@ -6,12 +6,13 @@
 
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif, "Apple Color Emoji";
   padding: 0;
   margin: 0;
   height: 100%;
   width: 100%;
   background-color: #151924;
+  overflow: visible;
 }
 
 .no-flexbox .container {
@@ -362,7 +363,7 @@ h3.hello2 {
 }
 
 .social-icons {
-  padding: 1.5rem;
+  padding: 2rem;
   display: inline-flex;
   justify-content: space-evenly;
 }
@@ -370,5 +371,7 @@ h3.hello2 {
 .emphasize {
   color: white;
   font-weight: 800;
+  font-style: italic;
+  font-size: 1em;
 }
 
