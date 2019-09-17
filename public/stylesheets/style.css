@@ -373,5 +373,6 @@ h3.hello2 {
   font-weight: 800;
   font-style: italic;
   font-size: 1em;
+  text-decoration: none;
 }
 
