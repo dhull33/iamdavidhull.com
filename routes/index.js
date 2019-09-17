@@ -10,6 +10,4 @@ app.get('/', (req, res, next) => {
   });
 });
 
-app.get('/resume', (req, res, next) => {});
-
 module.exports = app;
