@@ -276,11 +276,16 @@ a.button3:hover {
   }
 }
 
-.about-me, .free-me, #portfolio {
+.free-me, #portfolio {
   text-align: center;
-  padding: 1.5em;
+  padding: 1.0em;
 }
 
+.about-me {
+  text-transform: lowercase;
+  text-align: center;
+  padding: 1.0em;
+}
 .highlight-node {
   position: relative;
   font-style: italic;
@@ -338,15 +343,6 @@ picture {
 
 .super-script {
   color: #DB616A;
-}
-
-h1.hello2 {
-  font-size: 2.5rem;
-  color: whitesmoke;
-}
-
-h3.hello2 {
-  font-size: 1.2rem;
 }
 
 .contact {
