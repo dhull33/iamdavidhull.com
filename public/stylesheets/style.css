@@ -150,18 +150,26 @@ img {
 a.button {
   display: inline-block;
   padding: 0.4em 1.5em;
-  margin: 0 0.3em 0.3em 0;
+  margin: 0 40vw 0.3em 0;
   border-radius: 4em;
   box-sizing: border-box;
   text-decoration: none;
   text-align: center;
   background-color: #D33F49;
   color: whitesmoke;
-  transition: all 0.2s;
+  /*transition: all 0.2s;*/
 }
 
 a.button:hover {
   background-color: #C03A43;
+}
+
+@media all and (min-width: 800px) {
+  a.button {
+    display: block;
+    margin: 0 67vw 0.3em 0;
+    /*transition: all 0.2s;*/
+  }
 }
 
 
@@ -205,15 +213,6 @@ a.button3 {
 a.button3:hover {
   border-color: #D33F49;
 }
-
-
-/*@media all and (min-width: 800px) {*/
-/*  a.button {*/
-/*    display: block;*/
-/*    margin: 0 67vw 0.3em 0;*/
-/*    transition: all 0.2s;*/
-/*  }*/
-/*}*/
 
 .button-div {
   display: inline-flex;
