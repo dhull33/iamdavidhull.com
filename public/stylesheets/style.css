@@ -288,7 +288,7 @@ a.button3:hover {
   padding: 1.0em;
 }
 
-.about-free {
+.about-proj {
   display: flex;
   flex-flow: column;
   flex: 1 1 50%;
@@ -296,23 +296,35 @@ a.button3:hover {
   padding: 1rem;
 }
 
-.free-container {
+.left-container {
   display: flex;
   align-items: flex-start;
   width: 100%;
 }
 
+.right-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  flex-direction: row-reverse;
+}
 @media screen and (max-width: 48rem) {
-  .free-container {
+  .left-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     flex-flow: column;
   }
-
-  .about-free {
+  .right-container {
+    flex-direction: column !important;
+  }
+  .about-proj {
     padding: 0;
+    margin:0;
+  }
+  .free-me {
+    padding: 0.1rem;
   }
 }
 
