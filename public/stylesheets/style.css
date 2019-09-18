@@ -125,7 +125,7 @@ img {
   overflow: hidden;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 48rem) {
   img {
     max-width: 90vw;
     width: 90vw;
