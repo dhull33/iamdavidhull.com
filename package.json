@@ -1,6 +1,7 @@
 {
   "name": "iamdavidhull.com",
-  "version": "0.0.1",
+  "description": "David Hull's Portfolio Website",
+  "version": "0.1.0",
   "private": false,
   "scripts": {
     "start": "node bin/www",
