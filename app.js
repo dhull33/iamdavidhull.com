@@ -20,8 +20,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 // Enforces HTTPS
-// app.use(enforce.HTTPS({ trustProtoHeader: true })); // eslint-disable-line
-// new-cap
+app.use(enforce.HTTPS({ trustProtoHeader: true })); // eslint-disable-line new-cap
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
