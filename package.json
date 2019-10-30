@@ -16,7 +16,8 @@
     "ejs": "~2.7.1",
     "express": "~4.17.1",
     "http-errors": "~1.7.3",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "sqreen": "^1.37.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
