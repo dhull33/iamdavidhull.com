@@ -17,13 +17,13 @@
     "express": "~4.17.1",
     "http-errors": "~1.7.3",
     "morgan": "~1.9.1",
-    "sqreen": "^1.37.1"
+    "sqreen": "^1.38.3"
   },
   "devDependencies": {
-    "eslint": "^6.7.2",
+    "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "nodemon": "^1.19.4",
     "prettier": "^1.19.1"
   }
