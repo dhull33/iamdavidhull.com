@@ -11,20 +11,20 @@
     "node": "12.16.1"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
+    "cookie-parser": "~1.4.5",
     "debug": "~4.1.1",
-    "ejs": "^3.0.1",
+    "ejs": "^3.0.2",
     "express": "~4.17.1",
     "http-errors": "~1.7.3",
-    "morgan": "~1.9.1",
-    "sqreen": "^1.38.3"
+    "morgan": "~1.10.0",
+    "sqreen": "^1.40.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "nodemon": "^2.0.2",
-    "prettier": "^1.19.1"
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.3",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.4"
   }
 }
