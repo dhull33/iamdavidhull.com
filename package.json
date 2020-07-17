@@ -20,7 +20,7 @@
     "express-sslify": "^1.2.0",
     "http-errors": "~1.7.3",
     "morgan": "~1.10.0",
-    "sqreen": "^1.44.0",
+    "sqreen": "^1.45.0",
     "snyk": "^1.346.0"
   },
   "devDependencies": {
