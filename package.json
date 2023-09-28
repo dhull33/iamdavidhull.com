@@ -21,7 +21,7 @@
     "http-errors": "~1.8.0",
     "morgan": "~1.10.0",
     "snyk": "^1.685.0",
-    "sqreen": "^1.57.1"
+    "sqreen": "^2.0.2"
   },
   "devDependencies": {
     "eslint": "^7.17.0",
