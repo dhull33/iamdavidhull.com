@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "private": false,
   "engines": {
-    "node": "14.16.0"
+    "node": "19.6.0"
   },
   "scripts": {
     "start": "node bin/www",
@@ -14,14 +14,14 @@
   },
   "dependencies": {
     "cookie-parser": "~1.4.5",
-    "debug": "~4.1.1",
+    "debug": "^4.3.4",
     "ejs": "^3.1.5",
     "express": "~4.17.1",
     "express-sslify": "^1.2.0",
     "http-errors": "~1.8.0",
     "morgan": "~1.10.0",
     "snyk": "^1.685.0",
-    "sqreen": "^1.57.1"
+    "sqreen": "^2.0.2"
   },
   "devDependencies": {
     "eslint": "^7.17.0",
